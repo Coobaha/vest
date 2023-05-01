@@ -1,11 +1,9 @@
 {
-  "bin": {
-    "vx": "./cli.js"
-  },
+  "bin": "./cli.js",
   "dependencies": {
     "@ampproject/rollup-plugin-closure-compiler": "^0.27.0",
     "@rollup/plugin-replace": "^5.0.1",
-    "context": "3.0.2",
+    "context": "npm:context@3.0.7",
     "date-fns": "^2.29.3",
     "dotenv": "^16.0.3",
     "fs-extra": "^10.1.0",
@@ -17,7 +15,7 @@
     "rollup-plugin-terser": "^7.0.2",
     "rollup-plugin-ts": "^3.0.2",
     "ts-jest": "^29.0.0",
-    "vest-utils": "0.0.3",
+    "vest-utils": "npm:vest-utils@0.1.1",
     "yargs": "^17.6.2"
   },
   "name": "vx",
